@@ -1,0 +1,46 @@
+#header{
+    background-color: rgb(134, 106, 170);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Martian Mono', monospace;
+    text-transform: uppercase;
+}
+
+#nameAndTitle{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+#nameAndTitle h1, h2{
+    margin: 0;
+}
+h1, h2, h3{
+    text-transform: uppercase;
+}
+#contact{
+    list-style-type:none;
+}
+#contact i{
+    width: 30px;
+    color: rgb(134, 106, 170);
+}
+#container{
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-column-gap: 20px;
+}
+#sidebar, #content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.card h3{
+    font-family: 'Martian Mono', monospace; 
+}
+.card{
+    font-family: 'Ubuntu', sans-serif;
+    border: 1px solid #eaeaea;
+    border-radius: 15px;
+    padding: 20px;
+}
